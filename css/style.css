@@ -25,6 +25,10 @@
     z-index: 99;
 }
 
+.default-image-style {
+    width: 100%;
+    height: 100%;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -152,7 +156,11 @@
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .3);
+}
+
+.header-carousel .owl-carousel-item {
+    max-height: 800px;
 }
 
 @media (max-width: 768px) {
