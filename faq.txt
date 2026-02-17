@@ -1,0 +1,21 @@
+Frequently Asked Questions
+1. What engineering services does Chimax provide?
+Chimax specializes in civil and structural engineering for high-voltage substations, switchyards, and transmission & distribution lines.
+2. What voltage levels do you support?
+We design infrastructure ranging from 13.8 kV distribution systems up to 500 kV transmission and substation facilities.
+3. Do you provide complete design packages for construction?
+Yes. We deliver construction-ready engineering packages including drawings, calculations, bills of materials, and specifications.
+4. Does Chimax perform route selection and clearance analysis for transmission lines?
+Yes. We provide route optimization, structure spotting, sag and tension analysis, and clearance verification.
+5. Do you design substation layouts and foundations?
+Yes. Our services include equipment layout, structural steel design, foundation engineering, grading plans, and lightning protection coordination.
+6. What engineering standards do you follow?
+Our designs comply with CSA, IEEE, ASCE, and client- or utility-specific standards and regulations.
+7. Do you support renewable energy projects?
+Yes. We provide engineering services for wind, solar, BESS, hydropower, and grid interconnection projects.
+8. Can Chimax assist during construction?
+Yes. We offer technical support, design clarification, field revisions, and construction-phase engineering assistance.
+9. Do you provide feasibility studies and cost estimation?
+Yes. We support early-stage planning with feasibility assessments and preliminary cost evaluations.
+10. Does Chimax offer owner’s engineering or third-party review services?
+Yes. We provide independent design reviews, technical advisory services, and owner’s engineering support.
