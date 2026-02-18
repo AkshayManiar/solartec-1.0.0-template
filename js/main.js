@@ -115,4 +115,29 @@
       }
     }
   });
+
+  // Read More Toggle for Project Services
+  window.toggleReadMore = function (btn) {
+    var p = $(btn).prev("p");
+    if (p.hasClass("line-clamp-3")) {
+      p.removeClass("line-clamp-3");
+      $(btn).text("Read Less");
+    } else {
+      p.addClass("line-clamp-3");
+      $(btn).text("Read More");
+    }
+  };
+
+  function checkReadMoreVisibility() {
+    $(".line-clamp-3").each(function () {
+      var $this = $(this);
+      if ($this[0].scrollHeight > $this[0].clientHeight) {
+        $this.next("button").removeClass("d-none");
+      } else {
+        $this.next("button").addClass("d-none");
+      }
+    });
+  }
+
+  $(window).on("load resize", checkReadMoreVisibility);
 })(jQuery);

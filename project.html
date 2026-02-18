@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Solartec - Renewable Energy Website Template</title>
+    <title>Chimax - Projects</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.jpg" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Loading</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -51,7 +51,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>3950 Fourteenth Avenue, Suite 203, L3R 0A9, Markham, Ontario, Canada</small>
+                    <small>3950 Fourteenth Avenue, Suite 203, Markham, ON</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -61,7 +61,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>(905) 305-6133 </small>
+                    <small>(905) 305-6133 0</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
                     <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i
@@ -70,7 +70,8 @@
                             class="fab fa-twitter"></i></a>
                     <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i
+                            class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -108,7 +109,16 @@
                         <a href="service-project-management.html" class="dropdown-item">Project Management</a>
                     </div>
                 </div>
-                <a href="project.html" class="nav-item nav-link active">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="project.html" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Project</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="project-transmission-and-distribution.html" class="dropdown-item">Transmission &
+                            Distribution</a>
+                        <a href="project-substation-and-switchyard.html" class="dropdown-item">Substation &
+                            Switchyard</a>
+                        <a href="project-project-management.html" class="dropdown-item">Project Management</a>
+                    </div>
+                </div>
                 <a href="highlights.html" class="nav-item nav-link">Highlights</a>
                 <a href="careers.html" class="nav-item nav-link">Careers</a>
                 <div class="nav-item dropdown">
@@ -147,115 +157,431 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Our Projects</h6>
-                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+                <h1 class="mb-4">Visit Our Latest Engineering Projects</h1>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-5" id="portfolio-flters">
                         <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Solar Panels</li>
-                        <li class="mx-2" data-filter=".second">Wind Turbines</li>
-                        <li class="mx-2" data-filter=".third">Hydropower Plants</li>
+                        <li class="mx-2" data-filter=".transmission">Transmission & Distribution</li>
+                        <li class="mx-2" data-filter=".substation">Substation & Switchyard</li>
+                        <li class="mx-2" data-filter=".management">Project Management</li>
                     </ul>
                 </div>
             </div>
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <!-- Transmission Projects -->
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="mb-0">White River</h5>
+                            </div>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> PowerTel Utilities
+                                Contractors Ltd.
+                            </p>
+                            <p><strong>Year:</strong> 2013 - 2014</p>
+                            <p class="line-clamp-2 mb-4">115 kV Transmission line detail design using wood pole, detail
+                                design including: routing, plan & profile</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Solar Panels</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Cochrane Solar</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> HB White Canada</p>
+                            <p><strong>Year:</strong> 2013 - 2014</p>
+                            <p class="line-clamp-2 mb-4">115 kV Transmission line detail design using wood pole
+                                structures including: routing, plan & profile</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Wind Turbines</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item third">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Burlington Hydro 407 Crossing</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> Burlington Hydro</p>
+                            <p><strong>Year:</strong> 2012 - 2013</p>
+                            <p class="line-clamp-2 mb-4">Detail design of one long span power line crossing of highway
+                                407 with mono-steel pole</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Hydropower Plants</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Yukon Electricity Corporation</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> Wardrop</p>
+                            <p><strong>Year:</strong> 2007 and 2010</p>
+                            <p class="line-clamp-2 mb-4">Phase I and Phase II of 138 kV & 25kV Transmission line detail
+                                design using mono-steel pole structures</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Solar Panels</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">NextEra: Adelaide, Bornish, & Jericho Wind
+                            </h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> NextEra Energy Canada
+                            </p>
+                            <p><strong>Year:</strong> 2013 - 2014</p>
+                            <p class="line-clamp-2 mb-4">115kV transmission line detail design using mono-steel pole
+                                structures, detail design including: routing</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Wind Turbines</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item third">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                                href="img/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i
-                                    class="fa fa-link"></i></a>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Dufferin Wind</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> Dufferin Wind Power
+                                Inc.</p>
+                            <p><strong>Year:</strong> 2013 - Current</p>
+                            <p class="line-clamp-2 mb-4">230 kV transmission line detail using wood and mono-steel pool
+                                structure, detail design including: routing</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="pt-3">
-                        <p class="text-primary mb-0">Hydropower Plants</p>
-                        <hr class="text-primary w-25 my-2">
-                        <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Samsung South Kent</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> PowerTel Utilities
+                                Contractors Ltd.
+                            </p>
+                            <p><strong>Year:</strong> 2013 - 2014</p>
+                            <p class="line-clamp-2 mb-4">230 kV Transmission line detail design using mono-steel pole
+                                structures, detail design including: routing</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Bahamas Airport Highway Project</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> K-Line International
+                                Limited</p>
+                            <p><strong>Year:</strong> 2011 - 2012</p>
+                            <p class="line-clamp-2 mb-4">132 kV & 33kV Transmission line detail design using mono-steel
+                                pole structures, detail design including: routing</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Samsung Grand Renewable</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> K-Line Maintenance and
+                                Construction
+                                Ltd.</p>
+                            <p><strong>Year:</strong> 2013 - 2014</p>
+                            <p class="line-clamp-2 mb-4">230 kV Transmission line detail design using mono-steel pole
+                                structures, detail design including: routing</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item transmission">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Imperial Oil-Kearl Oil Sand</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> Fluor Canada</p>
+                            <p><strong>Year:</strong> 2008 - 2014</p>
+                            <p class="line-clamp-2 mb-4">230kV, 72kV, 13.8kV and 4.16kV Transmission/Distribution Line
+                                detailed design using wood and steel pole</p>
+                            <div class="mt-auto">
+                                <a href="project-transmission-and-distribution.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Substation Projects -->
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">K2 Wind</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> AMEC – Black & McDonald
+                                Joint
+                                Venture</p>
+                            <p><strong>Year:</strong> 2014 - Current</p>
+                            <p class="line-clamp-2 mb-4">Plan and section view, structural steel design, bus work bill
+                                of materials for two substations</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">NextEra: Adelaide, Bornish, & Jericho Wind
+                            </h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> One Line Engineering
+                            </p>
+                            <p><strong>Year:</strong> 2012 - Current</p>
+                            <p class="line-clamp-2 mb-4">Station design of 3 new 121kV / 34.5kV substations for wind
+                                farm including detail design</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">York Region Cogen</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> EPTCON</p>
+                            <p><strong>Year:</strong> 2010 - 2011</p>
+                            <p class="line-clamp-2 mb-4">230kV Substation Detail Design: Equipment layout, bill of
+                                materials, site grading, foundation design</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Glendale</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> EPTCON</p>
+                            <p><strong>Year:</strong> 2012</p>
+                            <p class="line-clamp-2 mb-4">Station design of 44kV substation including equipment layout,
+                                substation bill of materials</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Ashfield HONI 500kV station</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> EPTCON</p>
+                            <p><strong>Year:</strong> 2013</p>
+                            <p class="line-clamp-2 mb-4">Preparation of fabrication drawings of structural steelwork for
+                                500kV HONI Switch Yard.</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">NextERA: Parkhill</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> One Line Engineering
+                            </p>
+                            <p><strong>Year:</strong> 2012 - Current</p>
+                            <p class="line-clamp-2 mb-4">Station engineering and detailing for tender and construction
+                                of new 525kV / 121kV switching station</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Halton Hill Cogen</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> Black & McDonald</p>
+                            <p><strong>Year:</strong> 2007 - 2009</p>
+                            <p class="line-clamp-2 mb-4">230kV Substation Detail Design: Equipment layout, bill of
+                                materials, site grading, foundation design</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">East Windsor Cogen</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> EPTCON</p>
+                            <p><strong>Year:</strong> 2007 - 2008</p>
+                            <p class="line-clamp-2 mb-4">138kV Substation Detail Design: Equipment layout, bill of
+                                materials, site grading, foundation design</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Spyhill Generation - 138kV Substation</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> EPTCON</p>
+                            <p><strong>Year:</strong> 2010 - 2011</p>
+                            <p class="line-clamp-2 mb-4">138kV Substation Detail: Equipment layout, bill of materials,
+                                site grading, foundation design</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item substation">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        </div>
+                        <div class="p-4 flex-grow-1 d-flex flex-column">
+                            <h5 class="mb-3 project-card-title line-clamp-1">Third Line TS Redevelopment Project</h5>
+                            <p class="project-card-client line-clamp-1"><strong>Client:</strong> One Line Engineering
+                            </p>
+                            <p><strong>Year:</strong> 2009 - 2011</p>
+                            <p class="line-clamp-2 mb-4">115kV Substation - Detail Design for Extension to Existing
+                                Facility Including equipment layout</p>
+                            <div class="mt-auto">
+                                <a href="project-substation-and-switchyard.html"
+                                    class="btn btn-primary rounded-pill py-2 px-4">View Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Management Coming Soon -->
+                <div class="col-lg-4 col-md-6 portfolio-item management">
+                    <div class="service-item rounded overflow-hidden h-100 border p-0 d-flex flex-column justify-content-center align-items-center bg-white"
+                        style="min-height: 550px;">
+                        <div class="mb-4">
+                            <div class="btn-lg-square bg-primary rounded-circle mx-auto">
+                                <i class="fa fa-wrench text-white fa-2x"></i>
+                            </div>
+                        </div>
+                        <h5 class="text-muted text-uppercase fw-medium px-3 text-center">Projects Coming Soon</h5>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -268,7 +594,7 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/free_quote.jpg"
                             style="object-fit: cover;" alt="">
                     </div>
                 </div>

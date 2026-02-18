@@ -29,9 +29,18 @@
     height: 100%;
 }
 
+.line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -593,4 +602,29 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.hover-opacity-100:hover {
+    opacity: 1 !important;
+}
+
+.transition {
+    transition: all 0.5s ease;
+}
+
+.portfolio-img .portfolio-btn {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.portfolio-img:hover .portfolio-btn {
+    opacity: 1;
 }
