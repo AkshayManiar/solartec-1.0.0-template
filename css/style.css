@@ -45,6 +45,15 @@
     overflow: hidden;
 }
 
+@media (min-width: 768px) {
+    .portfolio-item h5.line-clamp-2 {
+        min-height: 48px;
+    }
+    .service-item p.line-clamp-3 {
+        min-height: 72px;
+    }
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -608,6 +617,14 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
