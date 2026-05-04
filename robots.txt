@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow access to non-public directories
+Disallow: /lib/
+Disallow: /scss/
+
+# Sitemap location
+Sitemap: https://www.chimax.ca/sitemap.xml

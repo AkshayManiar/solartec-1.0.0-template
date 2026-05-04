@@ -1,38 +1,111 @@
- 
+================================================================================
+  COPYRIGHT NOTICE
+  Chimax Inc. — Website Content & Design
+  Copyright © 2024–2026 Chimax Inc. All Rights Reserved.
+================================================================================
 
- => FREE HTML TEMPLATE LICENSE BY HTML Codex
+This website and all of its content — including but not limited to text, images,
+graphics, logos, project descriptions, service descriptions, layout, and source
+code — are the exclusive intellectual property of Chimax Inc., a company
+incorporated under the laws of Ontario, Canada.
 
- All free HTML templates by HTML Codex are licensed under a Creative Commons Attribution 4.0 International License which means you are not allowed to remove the author�s credit link/attribution link/backlink.
+Registered Office:
+  3950 Fourteenth Avenue, Suite 203,
+  Markham, Ontario, L3R 0A9, Canada
 
- When you download or use our free HTML templates, it will attribute the following conditions.
-
-
- => YOU ARE ALLOWED
-
-      1. You are allowed to use for your personal and commercial purposes.
-
-      2. You are allowed to modify/customize however you like.
-
-      3. You are allowed to convert/port for use for any CMS.
-
-      4. You are allowed to share/distribute under the HTML Codex brand name.
-
-      5. You are allowed to put a screenshot or a link on your blog posts or any other websites.
+Contact: chimax@chimax.ca | (905) 305-6133
 
 
- => YOU ARE NOT ALLOWED
+--------------------------------------------------------------------------------
+  PROPRIETARY & CONFIDENTIAL
+--------------------------------------------------------------------------------
 
-      1. You are not allowed to remove the author�s credit link/attribution link/backlink without purchasing Credit Removal License ( https://htmlcodex.com/credit-removal ).
+No part of this website may be reproduced, duplicated, copied, sold, resold,
+visited, redistributed, or otherwise exploited for any commercial or
+non-commercial purpose without the express prior written consent of Chimax Inc.
 
-      2. You are not allowed to sell, resale, rent, lease, license, or sub-license.
-
-      3. You are not allowed to upload on your template websites or template collection websites or any other third party websites without our permission.
-
-
- => If the template contains premium stock photos which are only for demo purposes and not distributed with the template. You need to purchase them separately from the corresponding stock photo website. You are responsible for adhering to the original license of them if necessary.
-
-
- => This license can be terminated if you breach any of these conditions.
+Unauthorized use, reproduction, or distribution of any materials contained on
+this website may result in civil and criminal penalties and will be prosecuted
+to the maximum extent permitted by law.
 
 
- => PURCHASE CREDIT REMOVAL LICENSE ( https://htmlcodex.com/credit-removal )
+--------------------------------------------------------------------------------
+  THIRD-PARTY OPEN-SOURCE LIBRARIES
+--------------------------------------------------------------------------------
+
+This website makes use of the following open-source libraries, each distributed
+under their respective licenses (all are permissive open-source licenses that
+impose no restriction on commercial use):
+
+  1. jQuery 3.4.1                 — MIT License
+     https://jquery.com/
+     Copyright © JS Foundation and contributors
+
+  2. Bootstrap 5.0.0              — MIT License
+     https://getbootstrap.com/
+     Copyright © 2011–2021 Twitter, Inc. / The Bootstrap Authors
+
+  3. Bootstrap Icons 1.4.1        — MIT License
+     https://icons.getbootstrap.com/
+     Copyright © 2019–2021 The Bootstrap Authors
+
+  4. Font Awesome 5.10.0          — CC BY 4.0 (icons) / MIT (code) / SIL OFL (fonts)
+     https://fontawesome.com/
+     Copyright © Fonticons, Inc.
+
+  5. Animate.css                  — MIT License
+     https://animate.style/
+     Copyright © 2020 Daniel Eden
+
+  6. WOW.js                       — MIT License
+     https://wowjs.uk/
+     Copyright © 2014 Matthew Muroya-Glendinning (Matthieu Aussaguel)
+
+  7. jQuery Easing Plugin         — BSD License (Open Source)
+     http://gsgd.co.uk/sandbox/jquery/easing/
+     Copyright © George McGinley Smith
+
+  8. jQuery Waypoints             — MIT License
+     http://imakewebthings.com/waypoints/
+     Copyright © Caleb Troughton
+
+  9. jQuery Counter-Up            — MIT License
+     https://github.com/bfintal/Counter-Up
+     Copyright © Benjamin Intal
+
+ 10. Owl Carousel 2               — MIT License
+     https://owlcarousel2.github.io/OwlCarousel2/
+     Copyright © 2013–2018 Owl
+
+ 11. Isotope Layout               — MIT License (open-source projects)
+     https://isotope.metafizzy.co/
+     Copyright © 2010–2021 Metafizzy
+
+ 12. Lightbox2                    — MIT License
+     https://lokeshdhakar.com/projects/lightbox2/
+     Copyright © 2007–2018 Lokesh Dhakar
+
+ 13. Google Fonts (Open Sans, Roboto)
+     — SIL Open Font License (OFL)
+     https://fonts.google.com/
+
+Full license texts for each library are available at their respective project
+repositories or websites listed above.
+
+
+--------------------------------------------------------------------------------
+  DISCLAIMER
+--------------------------------------------------------------------------------
+
+The content on this website is provided for general informational purposes only.
+Chimax Inc. makes no representations or warranties of any kind, express or
+implied, about the completeness, accuracy, reliability, suitability, or
+availability with respect to the website or the information, products, services,
+or related graphics contained on the website.
+
+Any reliance you place on such information is therefore strictly at your own risk.
+
+
+================================================================================
+  Last Updated: May 2026
+================================================================================
