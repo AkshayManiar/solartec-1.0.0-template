@@ -38,18 +38,46 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Safety -->
+  <!-- About Us Subpages -->
   <url>
-    <loc>https://www.chimax.ca/safety.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <loc>https://www.chimax.ca/about/health-and-safety.html</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Strategy -->
   <url>
-    <loc>https://www.chimax.ca/strategy.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <loc>https://www.chimax.ca/about/why-chimax.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chimax.ca/about/sustainability.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chimax.ca/about/market-segments.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chimax.ca/about/leadership-and-history.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chimax.ca/about/values.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chimax.ca/about/industry-involvement.html</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -60,14 +88,6 @@
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-
-  <!-- Team -->
-  <url>
-    <loc>https://www.chimax.ca/team.html</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 
   <!-- Contact -->
