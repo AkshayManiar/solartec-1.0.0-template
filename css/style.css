@@ -620,6 +620,13 @@
     color: var(--primary);
 }
 
+.footer .col-4 img,
+.footer-gallery-img {
+    width: 100% !important;
+    height: 75px !important;
+    object-fit: cover !important;
+}
+
 .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
