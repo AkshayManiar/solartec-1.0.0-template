@@ -1,7 +1,7 @@
 ================================================================================
   COPYRIGHT NOTICE
   Chimax Inc. — Website Content & Design
-  Copyright © 2024–2026 Chimax Inc. All Rights Reserved.
+  Copyright © 2024-2026 Chimax Inc. All Rights Reserved.
 ================================================================================
 
 This website and all of its content — including but not limited to text, images,
@@ -43,11 +43,11 @@ impose no restriction on commercial use):
 
   2. Bootstrap 5.0.0              — MIT License
      https://getbootstrap.com/
-     Copyright © 2011–2021 Twitter, Inc. / The Bootstrap Authors
+     Copyright © 2011-2021 Twitter, Inc. / The Bootstrap Authors
 
   3. Bootstrap Icons 1.4.1        — MIT License
      https://icons.getbootstrap.com/
-     Copyright © 2019–2021 The Bootstrap Authors
+     Copyright © 2019-2021 The Bootstrap Authors
 
   4. Font Awesome 5.10.0          — CC BY 4.0 (icons) / MIT (code) / SIL OFL (fonts)
      https://fontawesome.com/
@@ -75,15 +75,15 @@ impose no restriction on commercial use):
 
  10. Owl Carousel 2               — MIT License
      https://owlcarousel2.github.io/OwlCarousel2/
-     Copyright © 2013–2018 Owl
+     Copyright © 2013-2018 Owl
 
  11. Isotope Layout               — MIT License (open-source projects)
      https://isotope.metafizzy.co/
-     Copyright © 2010–2021 Metafizzy
+     Copyright © 2010-2021 Metafizzy
 
  12. Lightbox2                    — MIT License
      https://lokeshdhakar.com/projects/lightbox2/
-     Copyright © 2007–2018 Lokesh Dhakar
+     Copyright © 2007-2018 Lokesh Dhakar
 
  13. Google Fonts (Open Sans, Roboto)
      — SIL Open Font License (OFL)
